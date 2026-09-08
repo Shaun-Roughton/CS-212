@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+</style>
+<body>
+	<img src="Space background.jpeg" alt="Space Header">
+
+    <h1>Shaun Roughton</h1>
+    <h3>Aspiring Game Writer, Current Student</h3>
+
+    <p1>Howdy hi and hello! I am a humble student aspiring towards a place on a writing team to some cool set of games. Or just game stuff in general with writing on the side. I have a passion for creative writing in particular, and have come into various improvisational capabilities through throwing myself into various sporadic situations.</p1>
+    
+	<p1><br><br>My skillset includes:</p1>
+    <ul>
+    	<li>Passion for creative projects</li>
+    	<li>Improvisational Skills</li>
+        <li>willingness to learn and improve</li>
+    </ul>
+
+    <h4>My Projects!</h4>
+    <p1><b>- Project Writer's Pickaxe</b>: a writing prompt generator to help get minds back into the creative flow!</p1>
+
+    <p1><br><br>I am educated in, and hold experience with the following (as of writing):</p1>
+    	<table style="width:50%">
+        	<tr>
+            <td>Sophmore level College Education</td> 
+            <td>Northern Arizona University</td>
+            </tr>
+        	<tr>
+            <td>Creation of Project Writer's Pickaxe</td>
+            <td>Coconino High School</td>
+            </tr>
+        </table>
+
+	<h4><a href="https://drive.google.com/file/d/1xwm5ALmHVQzJNVQL_OJojKv_nn7DNl7C/view?usp=sharing">Resume!</a></h4>
+
+    
+    <h4>Contact Info!</h4>
+    <p>Personal Phone Number: <a href="tel:+9286001569">+928-600-1569</a></p>
+    <p> Personal Email: <a href="mailto:chaoticdm2005@gmail.com">chaoticdm2005@gmail.com</a></p>
+
+	<br><img src="Space background 2.jpeg" alt="Space Bottomer">
+</body>
+</html>
