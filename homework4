@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+.container{
+  display: grid;
+  grid-template-areas: 
+  	"header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: auto auto auto;
+  background-color: solid black;
+  padding: 10px;
+  justify-items: end;
+}
+.container div{
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.container div.header{
+	grid-area: header;
+    text-align: center;
+}
+.container div.menu{
+	display: flex;
+    flex-direction: column;
+    grid-area: menu;
+	justify-items: center;
+}
+.container div.content{
+	grid-area: content;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.container div.footer{
+	display: flex;
+    flex-direction: column;
+    grid-area: footer;
+    text-align: center;
+    justify-items: center;
+}
+.button {
+  background-color: #5324e0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+  .header {
+    flex: 50%;
+  }
+  .column {
+  	flex: 50%;
+  }
+  .menu {
+  	flex: 50%;
+  }
+  .content {
+	flex: 50%;
+  }
+  .footer {
+  	flex: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .column {
+  	flex-direction: column;
+  }
+  .menu {
+  	flex-direction: column;
+  }
+  .content {
+	flex-direction: column;
+  }
+  .footer {
+  	flex-direction: column;
+  }
+}
+
+div.a {
+  width: 350px;
+  height: 180px;
+  background-color: SlateBlue;
+  
+  transition:
+  	background-color 2s;
+}
+
+div.a:hover{
+	background-color: #cdbdff;
+}
+
+div.b{
+	transition:
+    	opacity 1s;
+}
+
+div.b:hover{
+	opacity: 0%
+}
+
+div.c{
+	transition:
+    	background-color 1s;
+}
+
+div.c:hover{
+	background-color: #a98cff;
+}
+
+</style>
+<body>
+	<div class="b"><img src="Space background.jpeg" alt="Space Header"></div>
+
+	<div class="container">
+    	<div class="header"><h1>Shaun Roughton</h1><br><h3>Aspiring Game Writer, Current Student</h3></div>
+  		<div class="content"><p1>Howdy hi and hello! I am a humble student aspiring towards a place on a writing team to some cool set of games. Or just game stuff in general with writing on the side. I have a passion for creative writing in particular, and have come into various improvisational capabilities through throwing myself into various sporadic situations.</p1><br><h4>My Projects!</h4>
+    <table stylre="width:50%">
+	<tr>
+	<td><b>Project Writer's Pickaxe</b></td> 
+    <td>A writing prompt generator to help get minds back into the creative flow!</td>
+    </tr>
+    </table>
+    <br><button><div class="c"><a href="https://drive.google.com/file/d/1xwm5ALmHVQzJNVQL_OJojKv_nn7DNl7C/view?usp=sharing" class="button">Resume!</a></div></button></div>
+  		<div class="menu"><h4>Contact Info!</h4>
+    <a href="tel:+9286001569">+928-600-1569</a>
+    <p> Personal Email: <a href="mailto:chaoticdm2005@gmail.com">chaoticdm2005@gmail.com</a></p>
+		</div>
+  		<div class="footer"><p1><br><br>I am educated in, and hold experience with the following (as of writing):</p1>
+    	<div class="a"><table style="width:50%">
+        	<tr>
+            <td>Sophmore level College Education</td> 
+            <td>Northern Arizona University</td>
+            </tr>
+        	<tr>
+            <td>Creation of Project Writer's Pickaxe</td>
+            <td>Coconino High School</td>
+            </tr>
+        </table></div></div>
+		</div>
